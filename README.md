@@ -7,13 +7,12 @@ Here are presented 2 alternative quantitative analysis workflows to quantify the
 ## Installation
 It is highly recommended to install all the softwares into a virtual environment so it doesn't interfere with other potential python installations for other softwares. Virtual environment are easily created and managed through Anacaonda. It is also recommended to start by the installation of PyimageJ as it is more dependent on the installation of OpenJDK and Maven and the proper configuration of JAVA_HOME and MAVEN_HOME variables. Cellpose can then be installed inside the created environment (see instruction's URL below).
 Requirements and installation instructions :
-> PyImageJ : https://github.com/imagej/pyimagej
-> Cellpose : https://github.com/mouseland/cellpose
-> ImageJ / Fiji : https://imagej.net/software/fiji/downloads
-(Fiji is preferable as it containis more built-in functions). A local installation allow more flexibility to use custom built macros of imagej / fiji that could be created and tested outside the pyimagej environment.
+- PyImageJ : https://github.com/imagej/pyimagej
+- Cellpose : https://github.com/mouseland/cellpose
+- ImageJ / Fiji : https://imagej.net/software/fiji/downloads (Fiji is preferable as it containis more built-in functions). A local installation allow more flexibility to use custom built macros of imagej / fiji that could be created and tested outside the pyimagej environment.
 
 The use of jupyter notebooks is recommended : 
-> Jupyter notebooks and Jupyter lab installation instructions : https://jupyter.org/
+- Jupyter notebooks and Jupyter lab installation instructions : https://jupyter.org/
 
 The jupyter interface allows the separation of code that is intuitive and allow the running of block of code separately. This allows to follow and directly visualize the progression of the image treatement step by step when trying to configure the workflow.
 
