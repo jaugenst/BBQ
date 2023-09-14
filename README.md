@@ -2,14 +2,14 @@
 
 ## BBQ = Bacterial Burden Quantification
 
-Here are presented 2 alternative quantitative analysis workflows to quantify the bacterial burden inside macrophages from fixed samples stained by immnunofluorescence. The quantification is based on the total bacterial fluorescence per infected cell, or by bacterial volume calculation per infected cells. Each workflow is presented in 2 separated jupyter notebooks. The workflows are optimized for multi-channel z-stacks images, pre-configured for images aquired on a Zeiss microscope generating "czi" files. The code and workflow can be adapted to your own type of image and file format. 
+Here are presented 2 alternative quantitative analysis workflows to quantify the bacterial burden inside infected from fixed samples. The quantification is based on the total bacterial fluorescence per infected cell, or by bacterial volume calculation per infected cells. Each workflow is presented in 2 separated jupyter notebooks. The workflows are optimized for multi-channel z-stacks images, pre-configured for images aquired on a Zeiss microscope generating "czi" files. The code and workflow can be adapted to your own type of image and file format. 
 
 ## Installation
-The installation process was tested on Linus (Ubuntu) and Windows 10. It is highly recommended to install all the softwares into a virtual environment so it doesn't interfere with other potential python installations for other softwares. Virtual environment are easily created and managed through Anacaonda. It is also recommended to start by the installation of PyimageJ as it is more dependent on the installation of OpenJDK and Maven and the proper configuration in Windows of JAVA_HOME and MAVEN_HOME variables. Cellpose can then be easily installed inside the created environment (see instruction's URL below).
+The installation process was tested on Linus (Ubuntu) and Windows 10. It is highly recommended to install all the softwares into a virtual environment so it doesn't interfere with other potential python installations for other softwares. Virtual environments are easily created and managed through Anacaonda or python VENV. It is also recommended to start by the installation of PyimageJ as it is more dependent on the installation of OpenJDK and Maven and the proper configuration in Windows of JAVA_HOME and MAVEN_HOME variables. Cellpose can then be easily installed inside the created environment (see instruction's URL below).
 Requirements and installation instructions :
 - PyImageJ : https://github.com/imagej/pyimagej
 - Cellpose : https://github.com/mouseland/cellpose (if venv already created, you can just type 'python -m pip install cellpose[gui]')
-- ImageJ / Fiji : https://imagej.net/software/fiji/downloads (Fiji is preferable as it containis more built-in functions). A local installation allow more flexibility to use custom built macros of imagej / fiji that could be created and tested outside the pyimagej environment.
+- ImageJ / Fiji : https://imagej.net/software/fiji/downloads (Fiji is preferable as it contains more built-in functions). A local installation allow more flexibility to use custom built macros of imagej / fiji that could be created and tested outside the pyimagej environment.
 
 The use of jupyter notebooks is recommended : 
 - Jupyter notebooks and Jupyter lab installation instructions : https://jupyter.org/
