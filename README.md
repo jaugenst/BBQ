@@ -15,6 +15,8 @@ The use of jupyter notebooks is not mandatory but is my personal preference :
 - Jupyter notebooks and Jupyter lab installation instructions : https://jupyter.org/
 The jupyter interface allows the separation of code that is intuitive and allow the running of block of code separately. This allows to follow and directly visualize the progression of the image treatement step by step when trying to configure the workflow. As a biologist by training, and not a programmer, this software was intuitive.
 
+A dataset to test the workflows can be downloaded from here : DOI: 10.17632/ffyh87pkpc.1
+
 ## Workflows description
 
 ### Bacterial burden quantification by integrated density of fluorescence per cells
